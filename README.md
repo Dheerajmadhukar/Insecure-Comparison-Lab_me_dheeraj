@@ -1,6 +1,9 @@
 # Insecure-Comparison-Lab_me_dheeraj
 Insecure Comparison in JavaScript. CTF written in nodejs Express module.
 
+Make sure you have latest NPM
+Run npm install -g npm to update!
+
 
 ## Setup CTF
 ### 1. Clone the repo
