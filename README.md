@@ -2,7 +2,7 @@
 Insecure Comparison in JavaScript. CTF written in nodejs Express module.
 
 # Make sure you have latest NPM <br>
-- Run npm install -g npm to update!
+- Run `npm install -g npm` to update!
 
 
 ## Setup CTF
