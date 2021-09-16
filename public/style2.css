@@ -1,0 +1,34 @@
+h1{
+	color: green;
+	font-family: 'Monoton', cursive;
+	font-size: 100px;
+	}
+	
+h2{
+	font-family: 'Bungee Inline', cursive;
+	color: black;
+	font-size: 40px;
+	}
+	
+h3{
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+	font-size: 45px;
+	}
+
+button {
+	color: white;
+	font-size: 25px; 
+	}
+	
+.answer {
+	background-color: green;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	}
+
+.help {
+	background-color: blue;
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+	}

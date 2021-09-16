@@ -1,0 +1,64 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b1f47;
+  }
+svg {
+    height: 50vh;
+    max-height: 100vh;
+  }
+
+#skull{
+  animation-name: bobbin;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#ghost1, #ghost2, #ghost3{
+  animation-name: opacity;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#ghost2 {
+  animation-delay: 0.25s;
+}
+#ghost3 {
+  animation-delay: 0.5s;
+}
+
+@keyframes bobbin{
+  0%, 100%{
+    transform:translateY(0px);
+  }
+  50%{
+    transform:translateY(10px);
+  }
+}
+
+@keyframes opacity{
+  
+  0%, 75%{
+    opacity:0;
+    transform:translateY(15px);
+  }
+  90%, 100%{
+    opacity:1;
+    transform:translateY(-15px);
+  }
+}
+.help {
+	background-color: blue;
+	font-family: 'Bungee Inline', cursive;
+	color: white;
+	}
